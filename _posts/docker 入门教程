@@ -1,4 +1,13 @@
-docker三个重要概念
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      docker入门教程               # 标题 
+subtitle:   入门篇讲解 #副标题
+date:       2020-01-28              # 时间
+author:     王贰                      # 作者
+header-img:     #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    docker三个重要概念
 1）image镜像(java中的类)
 docker镜像就是一个只读模板，比如，一个镜像可以包含一个完整的centos，里面仅安装apache或用户的其他应用，镜像可以用来创建docker容器，另外docker提供了一个很简单的机制来创建镜像或者更新现有的镜像，用户甚至可以直接从其他人那里下周一个已经做好的镜像来直接使用
 2）container容器(类的实例)
